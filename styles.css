@@ -30,16 +30,50 @@ html, body {
     gap: 15px;
 }
 
-
-
-
 .main {
     display: grid;
     grid-template-rows: 1fr 4fr;
 }
 
 .header {
+    display: grid;
+}
 
+.search-details {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 70% 30%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex: 1 1 auto;
+}
+.searchbar {
+    flex: 1 1 auto;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    flex-basis: 50%;
 }
 
 .content {
