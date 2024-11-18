@@ -104,7 +104,7 @@ form {
 }
 
 .banner > button {
-    height: 30px;
+    height: 50px;
     flex-basis: 10%;
 }
 
@@ -182,7 +182,7 @@ form {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 .announcements {
     display: grid;
