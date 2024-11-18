@@ -183,11 +183,6 @@ form {
     align-items: center;
     gap: 10px;
 }
-
-.project-icons > img {
-
-}
-
 .announcements {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -221,6 +216,7 @@ form {
     max-height: 50px;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     margin: 0;
 }
